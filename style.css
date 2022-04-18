@@ -72,3 +72,21 @@ text-align: center;
     font-size: 18px;
 	margin-top:-9px;
 }
+.mytable table, td, th
+{
+ border:1px solid black;
+ font-weight:bolder
+}
+
+.mytable th
+{
+ background-color:lightblue;
+ color:white;
+}
+.mytable tr:nth-child(even) {
+  background-color: lightgreen;
+}
+th, td {
+  padding: 10px;
+  font-size:18px;
+}
